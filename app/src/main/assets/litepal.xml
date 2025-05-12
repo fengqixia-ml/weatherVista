@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!-- 定义数据库名称，默认数据库名应以 .db 结尾，若未添加，LitePal会自动添加。如：test.db -->
+    <dbname value="weather_vista" />
+    <!-- 定义数据库版本，每次升级数据库时，需修改此版本号 -->
+    <version value="1" />
+    <!-- 配置映射模型类，将实际的模型类路径替换下面示例路径 -->
+    <list>
+        <mapping class="com.example.weathervista.db.City"/>
+        <mapping class="com.example.weathervista.db.County"/>
+        <mapping class="com.example.weathervista.db.Province"/>
+    </list>
+</litepal>
